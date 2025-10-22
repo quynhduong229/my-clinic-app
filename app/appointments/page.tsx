@@ -73,6 +73,18 @@ export default function AppointmentsPage() {
         >
           Login
         </button>
+        <br/>
+        <p className="text-red-500 mb-4">Test clinic name:</p>
+        <p className="text-red-500 mb-4">Smile Dental Care</p>
+        <p className="text-red-500 mb-4">Bright Smiles Clinic</p>
+        <p className="text-red-500 mb-4">Healthy Teeth Center</p>
+
+        <p className="text-red-500 mb-4">Test doctor name:</p>
+        <p className="text-red-500 mb-4">Dr. Alice Smith</p>
+        <p className="text-red-500 mb-4">Dr. John Doe</p>
+        <p className="text-red-500 mb-4">Dr. Sarah Lee</p>
+        
+
       </div>
     )
 
