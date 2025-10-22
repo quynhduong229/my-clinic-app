@@ -66,12 +66,12 @@ export default function AppointmentsPage() {
   if (!doctorId)
     return (
       <div className="flex flex-col items-center justify-center min-h-screen p-6">
-        <p className="text-red-500 mb-4">No doctor selected. Please login first.</p>
+        <p className="text-red-500 mb-4">Please login first.</p>
         <button
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
           onClick={() => router.push("/login")}
         >
-          Login as Doctor
+          Login
         </button>
       </div>
     )
